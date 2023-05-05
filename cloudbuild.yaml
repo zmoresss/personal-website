@@ -1,18 +1,17 @@
 steps:
-  - name: node:18.12.1
+  - name: node
     entrypoint: npm
     args: ["install"]
 
-  - name: node:18.12.1
-    entrypoint: npm
-    args: ["run", "build"]
+  - name: quasar
+    args: ["quasar", "build"]
 
   - name: "gcr.io/cloud-builders/gcloud"
     entrypoint: bash
     args:
       - "-c"
       - |
-        cp app.yaml ./build #not sure if this is necessary
+        cp app.yaml ./dist/spa #not sure if this is necessary
         gcloud app deploy
 options:
   logging: CLOUD_LOGGING_ONLY
