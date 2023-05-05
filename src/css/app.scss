@@ -1,0 +1,32 @@
+// app global css in SCSS form
+body {
+  background-color: #141416;
+  padding: 0 20%;
+  font-family: "ralewayfont";
+}
+
+.caption {
+  color: #6c6c74;
+}
+
+@font-face {
+  font-family: ralewayfont;
+  src: url(../assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: bebasneuefont;
+  src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+
+.raleway-font {
+  font-family: "ralewayfont";
+}
+
+.bebasneue-font {
+  font-family: "bebasneuefont";
+}
+
+.q-page.flex {
+  min-height: 300px !important;
+}
