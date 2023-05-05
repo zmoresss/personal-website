@@ -2,6 +2,9 @@ steps:
   - name: node
     entrypoint: npm
     args: ["install"]
+  - name: quasar-cli
+    entrypoint: quasar
+    args: ["build"]
   #Create .env file from Google Cloud Build substitution variables
   - name: node
     entrypoint: npm
