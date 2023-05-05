@@ -10,6 +10,4 @@ steps:
   #The .env file is prepared and ready to deploy to Google App Engine
   - name: "gcr.io/cloud-builders/gcloud"
     args: ["app", "deploy"]
-options:
-  logging: CLOUD_LOGGING_ONLY
 timeout: "1600s"
