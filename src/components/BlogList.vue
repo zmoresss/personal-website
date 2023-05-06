@@ -1,10 +1,10 @@
 <template>
   <q-page class="flex">
     <div
-      class="section-blog-list self-start row col justify-center full-width text-white"
+      class="section-blog-list self-start row col justify-center full-width text-white q-py-md"
     >
       <div v-for="blog in blogs" :key="blog.url">
-        <q-card class="blog-cards col-3 q-ma-md" flat bordered dark>
+        <q-card class="blog-cards col-3 q-ma-sm" flat bordered dark>
           <q-img :src="blog.previewPhoto" class="img-preview-photo" />
 
           <q-card-section>
