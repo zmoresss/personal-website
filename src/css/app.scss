@@ -5,6 +5,10 @@ body {
   font-family: "ralewayfont";
 }
 
+body.mobile {
+  padding: 0 12%;
+}
+
 .caption {
   color: #6c6c74;
 }

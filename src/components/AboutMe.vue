@@ -1,8 +1,20 @@
 <template>
   <q-page class="flex">
     <div class="section-about-me self-start row col full-width q-py-lg q-mt-lg">
+      <q-badge
+        outline
+        class="desktop-hide badge-warning"
+        color="warning"
+        label="website under construction"
+      />
+
+      <!-- Mobile Photo -->
+      <div class="col-xs-12 img-photo-self desktop-hide q-pa-md q-mt-lg">
+        <q-img src="../assets/programmer.svg" />
+      </div>
+
       <!-- Introduction -->
-      <div class="col-6 col-md-6 self-center">
+      <div class="txt-intro col-6 col-md-6 col-xs-12 self-center">
         <!-- Text intro -->
         <div class="txt-intro text-secondary">
           <p class="typed-out q-ma-none bebasneue-font">
@@ -34,7 +46,7 @@
       </div>
 
       <!-- Photo -->
-      <div class="col-6 col-md-6 img-photo-self q-pa-lg">
+      <div class="col-6 col-md-6 img-photo-self q-pa-lg mobile-hide">
         <q-img src="../assets/programmer.svg" />
       </div>
     </div>
@@ -86,6 +98,27 @@ export default defineComponent({
   }
   to {
     border-color: $secondary;
+  }
+}
+
+body.mobile {
+  .section-about-me {
+    padding: 0;
+    margin: 0;
+  }
+
+  .txt-intro {
+    text-align: center !important;
+    padding-top: 5%;
+  }
+
+  .txt-about {
+    font-size: 12pt;
+    padding: 5% 0;
+  }
+
+  .badge-warning {
+    margin: auto;
   }
 }
 </style>
