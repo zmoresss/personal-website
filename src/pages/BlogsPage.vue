@@ -14,7 +14,11 @@
         <q-icon size="1.0em" name="arrow_forward" color="grey" />
       </template>
 
-      <q-breadcrumbs-el class="text-grey" label="Home" to="/" />
+      <q-breadcrumbs-el
+        class="text-grey"
+        label="Home"
+        to="https://zmores.dev/"
+      />
       <q-breadcrumbs-el class="text-secondary" label="Blogs" />
     </q-breadcrumbs>
   </div>

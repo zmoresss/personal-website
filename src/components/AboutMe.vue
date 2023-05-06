@@ -39,7 +39,7 @@
             size="md"
             class="dense q-ma-sm"
             type="a"
-            href="/blogs"
+            href="https://zmores.dev/blogs"
           />
 
           <!-- Connect LinkedIn btn -->
