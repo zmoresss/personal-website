@@ -2,9 +2,11 @@
   <q-layout view="hHh lpR fFf">
     <q-header class="section-header bg-transparent text-secondary">
       <q-toolbar class="q-pa-none">
-        <q-toolbar-title class="text-bold">zmores.dev</q-toolbar-title>
+        <q-toolbar-title class="text-bold header-title"
+          >zmores.dev</q-toolbar-title
+        >
 
-        <div class="header-menu-options">
+        <div class="header-menu-options mobile-hide">
           <q-badge outline color="warning" label="website under construction" />
           <!-- <q-btn flat dense no-caps class="q-px-md">About</q-btn>
           <q-btn flat dense no-caps class="q-px-md q-ml-sm">Contact</q-btn>
@@ -23,5 +25,11 @@
 <style lang="scss">
 .section-header {
   padding: 0 20%;
+}
+
+body.mobile {
+  .header-title {
+    text-align: center !important;
+  }
 }
 </style>
