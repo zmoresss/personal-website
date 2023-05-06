@@ -28,8 +28,21 @@
           v-text="shortDescription"
         ></div>
 
-        <!-- Download CV btn -->
         <div class="btn-dl-cv q-py-md">
+          <!-- My Blogs btn -->
+          <q-btn
+            outline
+            rounded
+            no-caps
+            color="secondary"
+            label="My Blogs"
+            size="md"
+            class="dense q-ma-sm"
+            type="a"
+            href="/blogs"
+          />
+
+          <!-- Connect LinkedIn btn -->
           <q-btn
             outline
             rounded
