@@ -137,13 +137,13 @@ body.mobile {
     margin: auto;
   }
 
-  img {
+  .img-photo-self img {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
   }
 }
 
-img {
+.img-photo-self img {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
