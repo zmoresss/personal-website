@@ -24,24 +24,15 @@
 
         <!-- About me -->
         <div
-          class="txt-about caption raleway-font q-pr-lg"
-          v-text="shortDescription"
+          class="txt-about text-accent raleway-font q-pr-xl"
+          v-text="shortDescription1"
+        ></div>
+        <div
+          class="txt-about text-accent raleway-font q-pr-xl"
+          v-text="shortDescription2"
         ></div>
 
         <div class="btn-dl-cv q-py-md q-pr-sm">
-          <!-- Schedule a meeting btn -->
-          <q-btn
-            outline
-            rounded
-            no-caps
-            color="secondary"
-            label="Schedule a meeting"
-            size="sm"
-            class="dense q-mr-sm"
-            type="a"
-            @click="$router.push({ path: '/schedule-meeting' })"
-          />
-
           <!-- Connect LinkedIn btn -->
           <q-btn
             outline
@@ -49,7 +40,7 @@
             no-caps
             color="secondary"
             label="Let's connect on LinkedIn"
-            size="sm"
+            size="md"
             class="dense"
             type="a"
             target="_blank"
@@ -77,8 +68,9 @@ export default defineComponent({
 
   data() {
     return {
-      shortDescription:
-        "A passionate and driven software engineer who is highly committed to advocating for servant leadership and women empowerment. A strong believer in creating a welcoming and inclusive culture in the tech industry.",
+      shortDescription1:
+        "I am a passionate and skilled software engineer with a deep love for both the world of code and the realm of creativity. As someone who thrives in the dynamic intersection of technology and artistry, I have cultivated a unique blend of skills that allow me to excel in crafting elegant software solutions while indulging in my other passions.",
+      shortDescription2: "Guided by the principles of servant leadership, I have honed my skills in empathy, active listening, and fostering a collaborative environment. I recognize that the success of a project is not solely measured by its technical achievements, but also by the growth and well-being of every team member. By creating a space where everyone's ideas are valued, and each individual's strengths are leveraged, I strive to cultivate an atmosphere of trust and mutual respect.",
     };
   },
 
