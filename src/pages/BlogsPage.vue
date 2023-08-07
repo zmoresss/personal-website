@@ -1,4 +1,14 @@
 <template>
+  <div class="q-pa-md q-gutter-sm txt-bcrumbs">
+    <div class="justify-center row col">
+      <q-badge
+        outline
+        class="desktop-hide badge-warning"
+        color="warning"
+        label="website under construction"
+      />
+    </div>
+  </div>
   <div class="section-blog-page justify-center row col full-width q-mt-xl">
     <div class="txt-intro text-secondary q-mt-xl">
       <p class="q-ma-none bebasneue-font txt-talk">✒️ My Awesome Blogs ✒️</p>
