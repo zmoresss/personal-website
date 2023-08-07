@@ -11,7 +11,10 @@ import BlogsPage from "../pages/BlogsPage.vue";
 export default defineComponent({
   name: "IndexPage",
 
-  components: [AboutMe, BlogsPage],
+  components: [
+    AboutMe,
+    BlogsPage,
+  ],
 
   data() {
     return {

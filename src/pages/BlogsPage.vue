@@ -1,6 +1,6 @@
 <template>
   <div class="section-blog-page justify-center row col full-width q-mt-xl">
-    <div class="txt-intro text-secondary">
+    <div class="txt-intro text-secondary q-mt-xl">
       <p class="q-ma-none bebasneue-font txt-talk">My Awesome Blogs</p>
     </div>
     <component :is="BlogList" />
