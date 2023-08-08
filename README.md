@@ -1,4 +1,5 @@
-# Zmores (zmores-dev)
+# Zmores Web Portfolio
+Visit ✨ https://zmores.dev ✨ to view this repo's output.
 
 ### Introduction
 Hi, Humans! Feel free to use my codebase to build your own web portfolio. Let me know if you have any questions or need help setting it up. 🖤
