@@ -1,6 +1,13 @@
 # Zmores (zmores-dev)
 
-### Production Deployment
+### Introduction
+Hi, Humans! Feel free to use my codebase to build your own web portfolio. Let me know if you have any questions or need help setting it up. 🖤
+
+### Environment Setup
+1. Download quasar-cli `npm i -g quasar-cli`
+2. To run the project, run `quasar dev`
+
+### Production Deployment (Cloud Run with GCP)
 1. Checkout to `builds` branch
 2. Rebase branch from `master`
 3. Build project: `quasar build`
