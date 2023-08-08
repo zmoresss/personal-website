@@ -7,7 +7,7 @@ Hi, Humans! Feel free to use my codebase to build your own web portfolio. Let me
 1. Download quasar-cli `npm i -g quasar-cli`
 2. To run the project, run `quasar dev`
 
-### Production Deployment (Cloud Run with GCP)
+### Production CI/CD (Cloud Run with GCP)
 1. Checkout to `builds` branch
 2. Rebase branch from `master`
 3. Build project: `quasar build`
