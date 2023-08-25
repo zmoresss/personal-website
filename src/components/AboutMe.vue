@@ -14,11 +14,11 @@
       </div>
 
       <!-- Introduction -->
-      <div class="txt-intro col-6 col-md-6 col-xs-12 self-center">
+      <div class="txt-intro col-7 col-md-7 col-xs-12 self-center">
         <!-- Text intro -->
         <div class="txt-intro text-secondary">
           <p class="typed-out q-ma-none bebasneue-font">
-            Hi, I'm Zsannen Mariano.
+            It's me. Hi. I'm the Zsannen. It's me.
           </p>
         </div>
 
@@ -50,10 +50,10 @@
       </div>
 
       <!-- Photo -->
-      <div class="col-6 col-md-6 img-photo-self mobile-hide card">
+      <div class="col-5 col-md-5 img-photo-self mobile-hide card q-pl-xl">
         <q-img
-          :ratio="1"
           src="../assets/photo-self.jpg"
+          style="height: 300px; max-width: 300px"
         />
       </div>
     </div>
@@ -128,96 +128,6 @@ body.mobile {
   .badge-warning {
     margin: auto;
   }
-
-  .img-photo-self img {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-  }
 }
 
-.img-photo-self img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
-@property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
-}
-
-:root {
-  --card-height: 65vh;
-  --card-width: calc(var(--card-height) / 1.5);
-}
-
-.card {
-  background: #191c29;
-  width: var(--card-width);
-  height: var(--card-height);
-  position: relative;
-  border-radius: 6px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  color: rgb(88 199 250 / 0%);
-}
-
-.card:hover {
-  color: rgb(88 199 250 / 100%);
-  transition: color 1s;
-}
-
-
-.card::before {
-  content: "";
-  width: 104%;
-  height: 104%;
-  border-radius: 8px;
-  background-image: linear-gradient(
-      var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
-  position: absolute;
-  z-index: -1;
-  top: -2%;
-  left: -2%;
-  animation: spin 2.5s linear infinite;
-}
-
-.card::after {
-  position: absolute;
-  content: "";
-  top: calc(var(--card-height) / 14);
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(0.8);
-  filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-      var(--rotate)
-    , #5ddcff, #3c67e3 43%, #4e00c2);
-  opacity: 1;
-  transition: opacity .5s;
-  animation: spin 2.5s linear infinite;
-}
-
-.card:hover {
-  img {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);
-  }
-}
-
-@keyframes spin {
-  0% {
-    --rotate: 0deg;
-  }
-  100% {
-    --rotate: 360deg;
-  }
-}
 </style>

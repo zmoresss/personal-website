@@ -1,7 +1,7 @@
 <template>
   <component :is="AboutMe" />
-  <component :is="BlogsPage" />
   <component :is="StartAProject" />
+  <component :is="BlogsPage" />
 </template>
 
 <script>
