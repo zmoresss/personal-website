@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "AngularJs"
+      },
+      {
+        "label": "TypeScript"
+      },
+      {
+        "label": "Tailwind"
+      },
+      {
+        "label": "GoLang"
+      },
+      {
+        "label": "AWS"
+      },
+      {
+        "label": "GraphQL"
+      },
+      {
+        "label": "Hasura"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Technical lead of frontend team"
+      },
+      {
+        "label": "Develops features and maintain assigned project – Fintech"
+      },
+      {
+        "label": "Creates detailed and well-organized technical documentation"
+      },
+      {
+        "label": "Helps with the development (coding part)"
+      },
+      {
+        "label": "Projects handled (Fintech)",
+        "children": [
+          {
+            "label": "Loyalty feature with QR and barcode integration"
+          },
+          {
+            "label": "3rd-party payment method integration (e-wallet)"
+          },
+          {
+            "label": "Account verification feature using Veriff"
+          },
+          {
+            "label": "Managing saved recipients (template)"
+          }
+        ]
+      }
+    ]
+  }
+]

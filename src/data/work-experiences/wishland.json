@@ -1,0 +1,45 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "C++"
+      },
+      {
+        "label": "Cocos2Dx"
+      },
+      {
+        "label": "Vanilla Javascript"
+      },
+      {
+        "label": "ExtJS"
+      },
+      {
+        "label": "JQuery"
+      },
+      {
+        "label": "HTML, CSS"
+      },
+      {
+        "label": "Wordpress"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Lead game development team"
+      },
+      {
+        "label": "Develop and maintain game server features, socket-based game client application, and websites"
+      },
+      {
+        "label": "On-call support for the game server system"
+      },
+      {
+        "label": "Communicate with the game testers for product enhancements and testing"
+      }
+    ]
+  }
+]
