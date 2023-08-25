@@ -1,0 +1,105 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "NodeJS"
+      },
+      {
+        "label": "CodeIgniter PHP"
+      },
+      {
+        "label": "ReactJS"
+      },
+      {
+        "label": "C#"
+      },
+      {
+        "label": "Qt Framework C++"
+      },
+      {
+        "label": "MySQL"
+      },
+      {
+        "label": "DigitalOcean"
+      },
+      {
+        "label": "AWS"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Mentor/lead juniors by helping them achieve their career and skill growth by constant giving evaluations, teaching best coding practices"
+      },
+      {
+        "label": "Communicate with the project manager, CTO, and product owner when handling a new project and its maintenance/support"
+      },
+      {
+        "label": "Fullstack developer, code reviewer, and SME of the company’s products"
+      },
+      {
+        "label": "Enhance/optimize codes that need improvements"
+      },
+      {
+        "label": "Handle the deployment process when releasing new feature/projects"
+      },
+      {
+        "label": "Assign as project lead (and be the SME)",
+        "children": [
+          {
+            "label": "Loyalty System"
+          },
+          {
+            "label": "Point-of-sale (POS) System"
+          },
+          {
+            "label": "Content Management System"
+          },
+          {
+            "label": "Digital Content Creator System"
+          },
+          {
+            "label": "E-commerce"
+          },
+          {
+            "label": "Cafe Solution | (Socket-based) Network Communication Library that can be used by both server and client"
+          },
+          {
+            "label": "R&Ds"
+          }
+        ]
+      },
+      {
+        "label": "Create and introduce process documentation",
+        "children": [
+          {
+            "label": "Detailed task breakdown with its estimation"
+          },
+          {
+            "label": "Function specification document"
+          },
+          {
+            "label": "API documentation"
+          },
+          {
+            "label": "Flow diagrams - system process flow, feature technical implementation flow, etc."
+          }
+        ]
+      },
+      {
+        "label": "Give training/tutorial sessions about",
+        "children": [
+          {
+            "label": "NodeJS"
+          },
+          {
+            "label": "CodeIgniter PHP"
+          }
+        ]
+      }
+    ]
+  }
+]

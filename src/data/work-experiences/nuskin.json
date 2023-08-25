@@ -1,0 +1,77 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "NodeJS"
+      },
+      {
+        "label": "VueJS"
+      },
+      {
+        "label": "TypeScript"
+      },
+      {
+        "label": "GraphQL"
+      },
+      {
+        "label": "MySQL"
+      },
+      {
+        "label": "AWS"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Technical lead of two (2) teams, backend and frontend teams, that handles multiple domains or projects each"
+      },
+      {
+        "label": "Technical consultant or SME to the handled projects, and a part of planning and architecture of new projects/features to be implemented"
+      },
+      {
+        "label": "Mentor and coach team members to achieve the career path or goals by providing them a step-by-step direction towards achievements"
+      },
+      {
+        "label": "Provides regular brown bags or knowledge transfers about technical and soft skills to the department-level audience"
+      },
+      {
+        "label": "Creates detailed and well-organized technical documentation; Also introduced templates on how to do proper technical documents"
+      },
+      {
+        "label": "Regularly conducts checkpoints to each team member and as a team for a thorough performance evaluation to align expectations and improve skills and experienced pain points"
+      },
+      {
+        "label": "Interviews potential candidates for software engineering roles (Responsible for the technical assessments of the applicants)"
+      },
+      {
+        "label": "Introduced a team process, sprint evaluation, to check the team’s technical performance for the iteration"
+      },
+      {
+        "label": "Leads root-cause analysis discussion"
+      },
+      {
+        "label": "Projects handled (e-commerce)",
+        "children": [
+          {
+            "label": "Discounts and promotions service"
+          },
+          {
+            "label": "Pricing service"
+          },
+          {
+            "label": "Search Engine"
+          },
+          {
+            "label": "Cart service"
+          },
+          {
+            "label": "Brand Affiliates/Partner's Platform"
+          }
+        ]
+      }
+    ]
+  }
+]
