@@ -45,7 +45,9 @@
             type="a"
             target="_blank"
             @click="$router.push({ path: '/my-cv' })"
-          />
+          >
+            <q-badge color="red" floating>WIP</q-badge>
+          </q-btn>
 
           <!-- Connect LinkedIn btn -->
           <q-btn
