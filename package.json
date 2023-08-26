@@ -1,7 +1,7 @@
 {
   "name": "zmores-dev",
-  "version": "0.0.1",
-  "description": "A Quasar Project",
+  "version": "1.2.1",
+  "description": "Personal Website",
   "productName": "Zmores",
   "author": "Zsannen Mariano <iam@zmores.dev>",
   "private": true,
