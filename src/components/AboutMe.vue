@@ -33,6 +33,20 @@
         ></div>
 
         <div class="btn-dl-cv q-py-md q-pr-sm">
+          <!-- My CV -->
+          <q-btn
+            outline
+            rounded
+            no-caps
+            color="secondary"
+            label="View CV"
+            size="md"
+            class="dense q-mr-md"
+            type="a"
+            target="_blank"
+            @click="$router.push({ path: '/my-cv' })"
+          />
+
           <!-- Connect LinkedIn btn -->
           <q-btn
             outline

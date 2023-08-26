@@ -2,6 +2,12 @@
   <div class="section-blog-page justify-start row col full-width">
     <div class="q-px-lg q-py-md text-accent">
       <q-timeline color="secondary">
+        <q-timeline-entry
+          heading
+          class="bebasneue-font text-orange"
+        >
+          Work Experiences
+        </q-timeline-entry>
         <!-- LODAGO -->
         <q-timeline-entry
           title="Lodago (Under Tairi) | Lead Engineer | Project-based"
@@ -21,9 +27,22 @@
         <q-timeline-entry
           title="Career Break"
           subtitle="November 2022 - February 2023"
-          class="bebasneue-font text-orange"
-          color="orange"
+          class="bebasneue-font text-teal-10"
+          color="teal-10"
         >
+          <div class="text-grey raleway-font text-caption text-weight-thin">
+            TLDR?
+            <q-btn
+              dense
+              round
+              icon="play_circle"
+              size="sm"
+              @click="read(careerBreakDesc)"
+            />
+          </div>
+          <div
+            class="text-grey raleway-font text-italic text-caption text-weight-thin"
+          >{{ careerBreakDesc }}</div>
         </q-timeline-entry>
 
         <!-- TALINO LABS -->
@@ -108,9 +127,21 @@ import expDataFreedom from '../data/work-experiences/freedom.json';
 import expDataGoDigital from '../data/work-experiences/godigital.json';
 import expDataWishland from '../data/work-experiences/wishland.json';
 
+import { textToSpeech } from '../helpers/speech-synthesiser';
+
 export default {
   name: 'WorkExperiences',
   setup () {
+
+    const careerBreakDesc = "My career break was a purposeful pause dedicated to nurturing my mental health and " +
+      "achieving a state of emotional equilibrium. By engaging in activities that restored and " +
+      "rejuvenated my well-being, I emerged from the break with a clearer sense of self, " +
+      "renewed energy, and a deeper appreciation for the importance of maintaining a healthy " +
+      "work-life balance.";
+
+    const read = (msg) => {
+      textToSpeech(msg);
+    };
 
     return {
       expDataLodago,
@@ -119,6 +150,8 @@ export default {
       expDataFreedom,
       expDataGoDigital,
       expDataWishland,
+      careerBreakDesc,
+      read,
     }
   }
 }
