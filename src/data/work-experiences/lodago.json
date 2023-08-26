@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "TypeScript"
+      },
+      {
+        "label": "Tailwind"
+      },
+      {
+        "label": "Quasar VueJS"
+      },
+      {
+        "label": "ExpressJS"
+      },
+      {
+        "label": "GraphQL"
+      },
+      {
+        "label": "MySQL"
+      },
+      {
+        "label": "AWS"
+      },
+      {
+        "label": "Docker"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Technical lead"
+      },
+      {
+        "label": "Develops features and maintain assigned project",
+        "children": [
+          {
+            "label": "Real-time chat system using socket.io"
+          },
+          {
+            "label": "Third-party calendar integration"
+          },
+          {
+            "label": "Scheduling system"
+          },
+          {
+            "label": "Migration from legacy system to microservices"
+          }
+        ]
+      },
+      {
+        "label": "Creates detailed and well-organized technical documentation"
+      },
+      {
+        "label": "Direct reporting to the CEO/Founder"
+      }
+    ]
+  }
+]
