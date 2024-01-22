@@ -50,7 +50,7 @@ export default defineComponent({
     return {
       async initBlogItems() {
         const url =
-          "https://gist.githubusercontent.com/zmoresss/ecf2bc516ff5b5507b4e827cf44de4ad/raw/853c8a04930387ca6e081e7f2b69bc9a27d3b873/medium-rss.json";
+          "https://gist.githubusercontent.com/zmoresss/ecf2bc516ff5b5507b4e827cf44de4ad/raw/3ccf3d0914d79add73b5075b706c9328cef2ddf1/medium-rss.json";
 
         const response = await fetch(url);
         const mediumBlogs = await response.json();
