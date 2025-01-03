@@ -1,5 +1,16 @@
 <template>
   <div class="section-blog-page justify-start row col full-width">
+    <q-btn
+      flat
+      rounded
+      no-caps
+      color="secondary"
+      label="Back"
+      size="sm"
+      class="dense"
+      @click="$router.push({ path: '/' })"
+    >
+    </q-btn>
     <div class="q-px-lg q-py-md text-accent">
       <q-timeline color="secondary">
         <q-timeline-entry heading class="bebasneue-font text-orange">
