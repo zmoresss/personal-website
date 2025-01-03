@@ -4,6 +4,38 @@
       <q-timeline color="secondary">
         <q-timeline-entry heading class="bebasneue-font text-orange">
           Work Experiences
+          <q-btn
+            outline
+            rounded
+            no-caps
+            color="secondary"
+            label="Download CV"
+            size="md"
+            class="dense q-mx-sm"
+            type="a"
+            target="_blank"
+            @click="downloadCv"
+          />
+          <div class="bebasneue-font text-deep-purple-12 text-h6">
+            <q-btn
+              outline
+              rounded
+              no-caps
+              color="deep-purple-12"
+              label="TLDR? Ask my AI Assistant (Coming Soon!)"
+              size="md"
+              class="dense"
+              disabled
+            >
+              <q-badge color="red" floating>WIP</q-badge>
+              <q-tooltip
+                class="bg-accent text-black shadow-4"
+                :offset="[10, 10]"
+              >
+                Coming soon
+              </q-tooltip>
+            </q-btn>
+          </div>
         </q-timeline-entry>
         <!-- MYNE -->
         <q-timeline-entry
@@ -235,7 +267,6 @@ import expDataNuskin from "../data/work-experiences/nuskin.json";
 import expDataFreedom from "../data/work-experiences/freedom.json";
 import expDataGoDigital from "../data/work-experiences/godigital.json";
 import expDataWishland from "../data/work-experiences/wishland.json";
-
 import { textToSpeech } from "../helpers/speech-synthesiser";
 
 export default {
@@ -269,6 +300,13 @@ export default {
       textToSpeech(msg);
     };
 
+    const downloadCv = () => {
+      window.open(
+        "https://storage.googleapis.com/zmores-public-files/CV_ZsannenMariano-20250102.pdf",
+        "_blank"
+      );
+    };
+
     return {
       expDataMyne,
       expDataGroundlink,
@@ -288,6 +326,7 @@ export default {
       godigitalTldr,
       wishlandTldr,
       read,
+      downloadCv,
     };
   },
 };
