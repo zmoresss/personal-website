@@ -32,7 +32,7 @@
                 class="bg-accent text-black shadow-4"
                 :offset="[10, 10]"
               >
-                Coming soon
+                Currently building the knowledge graph...
               </q-tooltip>
             </q-btn>
           </div>
