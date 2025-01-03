@@ -1,0 +1,109 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "ReactJS"
+      },
+      {
+        "label": "NodeJS"
+      },
+      {
+        "label": "TypeScript"
+      },
+      {
+        "label": "PostgreSQL"
+      },
+      {
+        "label": "OpenAI"
+      },
+      {
+        "label": "Neo4j (Cypher QL)"
+      },
+      {
+        "label": "LLM"
+      },
+      {
+        "label": "AWS"
+      },
+      {
+        "label": "Terraform"
+      }
+    ]
+  },
+  {
+    "label": "Contributions with high impact",
+    "children": [
+      {
+        "label": "Created automated report generation for the RDS and graph to reduce time of checking to identify resource management, possible optimisation needed for the DB queries."
+      },
+      {
+        "label": "Built the lambdas/microservices in such a way that it will be easier to extend instead of refactoring the whole function/feature."
+      },
+      {
+        "label": "Created the graph database from scratch that serves as the heart of the analytics and data to be used with RAG dedicated to the organization’s product."
+      },
+      {
+        "label": "Provided development guidance to the team."
+      },
+      {
+        "label": "One of the pioneer developers which started the whole ecosystem of the organisation which is now in production environment and being used by partner brands in the hospitality industry in Australia."
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "R&D of machine learning tech stacks, techniques, and application with the product"
+      },
+      {
+        "label": "Projects/Features/Modules handled",
+        "children": [
+          {
+            "label": "Microservices (Using Lambda, SQS, EventBridge)",
+            "children": [
+              {
+                "label": "Third-party authorisation"
+              },
+              {
+                "label": "RDS data synchroniser"
+              },
+              {
+                "label": "Data processor for data enrichment"
+              },
+              {
+                "label": "Neo4j graph synchroniser"
+              },
+              {
+                "label": "Third-party loyalty / gift card integration (Wrapped)"
+              },
+              {
+                "label": "OpenAI integration"
+              }
+            ]
+          },
+          {
+            "label": "Frontend",
+            "children": [
+              {
+                "label": "Web app built with ReactJS, TypeScript, FlowBite, TailwindCSS"
+              },
+              {
+                "label": "UI and integration of the features"
+              }
+            ]
+          },
+          {
+            "label": "Devops",
+            "children": [
+              {
+                "label": "Terraform configuration"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

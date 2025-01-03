@@ -1,0 +1,76 @@
+[
+  {
+    "label": "Tech Stacks",
+    "children": [
+      {
+        "label": "Laravel 10 (PHP)"
+      },
+      {
+        "label": "NodeJS"
+      },
+      {
+        "label": "Nest JS"
+      },
+      {
+        "label": "Quasar VueJS"
+      },
+      {
+        "label": "MySQL"
+      },
+      {
+        "label": "MongoDB"
+      },
+      {
+        "label": "Docker"
+      }
+    ]
+  },
+  {
+    "label": "Responsibilities",
+    "children": [
+      {
+        "label": "Tech Lead",
+        "children": [
+          {
+            "label": "Provides 1-on-1 to members and creates action plan based on the evaluation"
+          },
+          {
+            "label": "Initiates development process enhancements"
+          },
+          {
+            "label": "Acts as “heavy support” to complex feature development"
+          },
+          {
+            "label": "Makes sure that user stories are properly defined, refined, and broken down into smaller chunks, with detailed technical specifications"
+          }
+        ]
+      },
+      {
+        "label": "Acts as project manager of the company"
+      },
+      {
+        "label": "Involves in heavy development to frontend and backend project"
+      },
+      {
+        "label": "Features/Modules handled",
+        "children": [
+          {
+            "label": "Statistics"
+          },
+          {
+            "label": "Money Transfer"
+          },
+          {
+            "label": "Smart editor (created from scratch/own plugin)"
+          },
+          {
+            "label": "Content creation feature"
+          },
+          {
+            "label": "Creates detailed and well-organized technical documentation"
+          }
+        ]
+      }
+    ]
+  }
+]
